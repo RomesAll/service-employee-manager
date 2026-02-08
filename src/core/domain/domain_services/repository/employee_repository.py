@@ -1,4 +1,4 @@
-from src.core.domain.domain_services.employee.dto.employee import UpdateEmployeeDto, PostEmployeeDto
+from src.core.domain.domain_services.dto.employee import UpdateEmployeeDto, PostEmployeeDto
 from src.core.domain.entities import EmployeeEntity
 from abc import ABC, abstractmethod
 from uuid import UUID

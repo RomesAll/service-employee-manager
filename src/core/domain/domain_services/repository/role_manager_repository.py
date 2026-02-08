@@ -1,4 +1,4 @@
-from src.core.domain.domain_services.role_manager.dto.role_manager import PostRoleManagerDto, UpdateRoleManagerDto
+from src.core.domain.domain_services.dto.role_manager import PostRoleManagerDto, UpdateRoleManagerDto
 from src.core.domain.entities import RoleManagerEntity
 from abc import ABC, abstractmethod
 

@@ -1,5 +1,5 @@
 from src.core.domain.domain_services import PermissionRepository
-from src.core.domain.domain_services.permission.dto.permission import GetPermissionDto, PostPermissionDto, UpdatePermissionDto
+from src.core.domain.domain_services.dto.permission import GetPermissionDto, PostPermissionDto, UpdatePermissionDto
 
 class PermissionService:
     def __init__(self, repository: PermissionRepository):
