@@ -1,5 +1,5 @@
 from src.core.domain.domain_services import EmployeeRepository
-from src.core.domain.domain_services.employee.dto.employee import UpdateEmployeeDto, PostEmployeeDto, GetEmployeeDto
+from src.core.domain.domain_services.dto.employee import UpdateEmployeeDto, PostEmployeeDto, GetEmployeeDto
 from uuid import UUID
 
 class EmployeeService:

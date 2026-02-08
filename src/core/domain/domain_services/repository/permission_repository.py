@@ -1,4 +1,4 @@
-from src.core.domain.domain_services.permission.dto.permission import PostPermissionDto, UpdatePermissionDto
+from src.core.domain.domain_services.dto.permission import PostPermissionDto, UpdatePermissionDto
 from src.core.domain.entities import PermissionEntity
 from abc import ABC, abstractmethod
 

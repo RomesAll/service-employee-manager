@@ -1,7 +1,7 @@
 from src.core.domain.domain_services import RoleManagerRepository
-from src.core.domain.domain_services.role_manager.dto.role_manager import (GetRoleManagerDto,
-                                                                           PostRoleManagerDto,
-                                                                           UpdateRoleManagerDto)
+from src.core.domain.domain_services.dto.role_manager import (GetRoleManagerDto,
+                                                              PostRoleManagerDto,
+                                                              UpdateRoleManagerDto)
 
 class RoleManagerService:
     def __init__(self, repository: RoleManagerRepository):
