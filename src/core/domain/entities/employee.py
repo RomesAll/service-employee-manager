@@ -1,12 +1,14 @@
 from src.core.domain.value_objects import Post
 from dataclasses import dataclass
-from typing import final
+from typing import final, NewType
 from uuid import UUID
 
+EmpId = NewType('EmpId', UUID)
+
 @final
-@dataclass
+@dataclass(frozen=True, slots=True, kw_only=True)
 class EmployeeEntity:
-    uuid: UUID
+    uuid: EmpId
     fio: str
     post: Post
     years: int

@@ -3,7 +3,7 @@ from typing import final, ClassVar
 from pydantic import ValidationError
 
 @final
-@dataclass
+@dataclass(frozen=True, slots=True, kw_only=True)
 class Post:
     _allowed_values: ClassVar[set[str]] = {
         'backend',
