@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy import ForeignKey
-from base import Base
+from .base import Base
 
 class PermissionOrm(Base):
     id: Mapped[int] = mapped_column(primary_key=True, nullable=False, autoincrement=True)

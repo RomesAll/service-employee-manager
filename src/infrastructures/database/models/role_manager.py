@@ -1,5 +1,5 @@
 from sqlalchemy import ForeignKey
-from base import Base, mapped_column, Mapped
+from .base import Base, mapped_column, Mapped
 
 class RoleManagerOrm(Base):
     id: Mapped[int] = mapped_column(primary_key=True, nullable=False, autoincrement=True)

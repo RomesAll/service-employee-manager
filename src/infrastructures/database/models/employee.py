@@ -1,4 +1,4 @@
-from base import Base
+from .base import Base
 from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy import Column
