@@ -1,12 +1,12 @@
-from .role_manager import RoleManagerEntity
 from dataclasses import dataclass
 from typing import final
+from .role_manager import RoleId
 
 @final
-@dataclass
+@dataclass(frozen=True, slots=True, kw_only=True)
 class PermissionEntity:
     id: int
-    role: RoleManagerEntity
+    role: RoleId
     model: str
     get: bool
     post: bool
