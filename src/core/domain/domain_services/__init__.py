@@ -1,2 +1,2 @@
 from .dto import *
-from .repository import *
+from .interfaces import IRepository
